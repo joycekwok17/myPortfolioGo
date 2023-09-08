@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Xuanchi Guo - Master Student</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <style>
+         
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding-top: 2rem;
+            padding-bottom: 2rem;
+        }
+
+        .container {
+            max-width: 1000px;
+             
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            text-align: center;
+        }
+
+        h3 {
+            margin-bottom: 1rem;
+            text-align: center;
+        }
+
+        p {
+            text-align: justify;
+            max-width: 700px;
+            margin: 0 auto;
+            margin-bottom: 1rem;
+        }
+
+        .profile-img {
+            display: block;
+            margin: 0 auto;
+            width: 300px;
+            height: 300px;
+            object-fit: cover;
+            border-radius: 50%;
+        }
+
+        .projects-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            gap: 1rem;
+             
+        }
+
+        .project-card {
+            flex-basis: calc(33.33% - 1rem);
+             
+            margin-bottom: 1rem;
+            text-align: center;
+        }
+
+        .project-card .card-body {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            height: 100%;
+        }
+
+        .project-card .btn {
+            margin-top: auto;
+        }
+
+        .networks-list {
+            list-style: none;
+            padding: 0;
+            text-align: center;
+        }
+
+        .networks-list li {
+            display: inline-block;
+            margin-right: 0.5rem;
+            font-size: 1.2rem;
+        }
+
+        footer {
+            margin-top: 2rem;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1> Xuanchi Guo </h1>
+            <h2> Master Student </h2>
+            <br>
+            <img src="data/profile.jpg" class="profile-img" alt="Profile Photo">
+            <br>
+            <ul class="networks-list">
+                
+                <li><a href="link%20of%20network%201" target="_blank"> network1 </a></li>
+                
+                <li><a href="link%20of%20network%202" target="_blank"> network2 </a></li>
+                
+            </ul>
+        </header>
+
+        <section id="about">
+            <h3>About Me</h3>
+            <p> something about me... </p>
+        </section>
+
+        <section id="projects">
+            <h3>Projects</h3>
+            <div class="projects-container">
+                
+                    <div class="card project-card">
+                        <div class="card-body">
+                            <h5 class="card-title text-center"> Project 1 </h5>
+                            <p class="card-text"> description of project 1 </p>
+                            <a href=" link%20of%20project%201 " class="btn btn-primary mt-auto">View Project</a>
+                        </div>
+                    </div>
+                
+                    <div class="card project-card">
+                        <div class="card-body">
+                            <h5 class="card-title text-center"> Project 2 </h5>
+                            <p class="card-text"> description of project 2 </p>
+                            <a href=" link%20of%20project%202 " class="btn btn-primary mt-auto">View Project</a>
+                        </div>
+                    </div>
+                
+                    <div class="card project-card">
+                        <div class="card-body">
+                            <h5 class="card-title text-center"> Project 3 </h5>
+                            <p class="card-text"> description of project 3 </p>
+                            <a href=" link%20of%20project%203 " class="btn btn-primary mt-auto">View Project</a>
+                        </div>
+                    </div>
+                
+            </div>
+        </section>
+
+        <footer>
+            <p class="text-center">© Xuanchi Guo . All rights reserved.</p>
+        </footer>
+    </div>
+</body>

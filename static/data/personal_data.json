@@ -1,0 +1,33 @@
+{
+    "Name": "Xuanchi Guo",
+    "Title": "Master Student",
+    "About": "something about me...",
+    "Projects": [
+        {
+            "Title": "Project 1",
+            "Description": "description of project 1",
+            "Link": "link of project 1"
+        },
+        {
+            "Title": "Project 2",
+            "Description": "description of project 2",
+            "Link": "link of project 2"
+        }
+        ,
+        {
+            "Title": "Project 3",
+            "Description": "description of project 3",
+            "Link": "link of project 3"
+        }
+    ],
+    "Networks": [
+        {
+            "Name": "network1",
+            "Link": "link of network 1"
+        },
+        {
+            "Name": "network2",
+            "Link": "link of network 2"
+        }
+    ]
+}
